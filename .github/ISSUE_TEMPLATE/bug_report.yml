@@ -1,0 +1,55 @@
+name: 不具合の報告
+description: うまく動かないこと・おかしなことを教えてください
+labels: ["不具合"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        教えてくださってありがとうございます。
+        **ここに書いたことは誰でも見られます。** API キー・記録の zip・名前などは貼らないでください（記録の zip は作者に直接送ってください）。
+  - type: input
+    id: version
+    attributes:
+      label: MIMIRU の版
+      description: ⚙ 設定 →「一般」→「困ったとき」の記録の zip の「情報.txt」の 1 行目、または zip の名前（MIMIRU_v〇〇）
+      placeholder: 例：3.51.2
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 何が起きましたか
+      description: 何をしたら、どうなったか。画面の写真があれば貼ってください
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: どうなってほしかったですか
+  - type: dropdown
+    id: where
+    attributes:
+      label: どこで起きましたか
+      options:
+        - セットアップ・起動
+        - 字幕・ライブ翻訳
+        - バブル翻訳（頭上）
+        - インサイト
+        - スキャン・アスク
+        - リキャップ・メモリーズ
+        - VR（手首のツールバー・メインパネル）
+        - ⚙ 設定
+        - そのほか
+  - type: dropdown
+    id: gpu
+    attributes:
+      label: GPU
+      options:
+        - NVIDIA
+        - AMD（Radeon）
+        - Intel・そのほか
+        - 分からない
+  - type: textarea
+    id: more
+    attributes:
+      label: そのほか（VR の機器・使っている AI など）
