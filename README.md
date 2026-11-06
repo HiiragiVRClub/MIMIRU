@@ -1,15 +1,35 @@
+![MIMIRU — The AI assistant for VRChat, right inside VR](images/banner.jpg)
+
+**日本語** | [English](README.en.md)
+
 # MIMIRU（ミミル）ベータ版
 
 **VR の中で完結する、VRChat のための AI アシスタント**（Windows 用・無料のベータ版）
 
-- **字幕とライブ翻訳**：相手の声を字幕にして、自分の言葉に訳します（PC の訳をすぐ出し、AI の自然な訳に差し替え）
-- **バブル翻訳**：自分の声を相手の言葉に訳して、頭の上（チャットボックス）に出します
-- **インサイト**：会話の話題と要点を AI がまとめます
-- **スキャン・アスク**：今の画面を見せて AI に質問できます（VR の中を撮って聞くこともできます）
-- **リキャップ・メモリーズ**：その日の会話と写真をふり返るページを作ります（PC の中だけ）
-- **VR の中で使える**：左手首のツールバーと、空間に置くメインパネル（SteamVR。Quest＋Virtual Desktop でも）
+> ベータ版です。まだ不具合があるかもしれません。見つけたら [Issues](https://github.com/HiiragiVRClub/MIMIRU/issues/new/choose) で教えてください。
+> **[ダウンロード（Releases）](https://github.com/HiiragiVRClub/MIMIRU/releases/latest)**
 
-> ベータ版です。まだ不具合があるかもしれません。見つけたら [Issues](https://github.com/HiiragiVRClub/MIMIRU/issues) で教えてください。
+## できること
+
+### ライブ翻訳・バブル翻訳
+相手の声を字幕にして、自分の言葉に訳します（PC の訳をすぐ出し、約 1 秒で AI の自然な訳に差し替え）。自分の声は相手の言葉に訳して、頭の上（チャットボックス）に出します。
+![ライブ翻訳](images/1_live-translation.jpg)
+
+### インサイト
+いま何の話をしているか・誰が何を言ったかを、AI がまとめます。人が多い部屋でも話についていけます。
+![インサイト](images/2_insight.jpg)
+
+### マインドマップ・リキャップ
+その日の会話を 1 枚の地図に。日記とよく撮れた写真も AI がまとめます（PC の中だけに残ります）。
+![マインドマップ](images/3_mind-map.jpg)
+![リキャップ](images/4_recap.jpg)
+
+### スキャン・アスク
+キーを押すと、AI が今の画面を見て答えます。謎解き・メニュー・看板も説明してくれます。VR の中を撮って聞くこともできます。
+![スキャン](images/5_scan.jpg)
+
+### VR の中で使える
+左手首を見るとツールバーが出て、空間に置くメインパネルで字幕・アスク・設定を使えます（SteamVR。Quest＋Virtual Desktop でも）。
 
 ## 動かすのに必要なもの
 - Windows 10 / 11（64 ビット）
